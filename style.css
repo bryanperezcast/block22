@@ -1,0 +1,29 @@
+*{
+    padding: 5px;
+    margin: 5;
+    box-sizing: border-box;
+}
+#part-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+.party{
+    border: solid black 1px;
+    width: 38vw;
+    height: 20vh;
+    background-color: #8ABD91  ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 10px;
+}
+p{
+    font-size: 10px;
+}
